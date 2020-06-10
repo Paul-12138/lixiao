@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://www.majestysa.site/lixiao/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="./平安成电智慧通行_files/lixiao.css" type="text/css">
+<link rel="stylesheet" href="./平安成电智慧通行_files/app.45e01e14.css" type="text/css">
+<link rel="stylesheet" href="./平安成电智慧通行_files/chunk-b2496998.ca4f56d8.css" type="text/css">
+<link rel="stylesheet" href="./平安成电智慧通行_files/chunk-vendors.d6f46578.css" type="text/css">
+
+    
+    <title>平安成电智慧通行</title>
+</head>
+<body>
+<div class="application theme--light">
+    <div class="pt-5 v-card v-card--flat v-sheet v-sheet--tile theme--light">
+        <div data-v-477b291f="" class="v-card__title mb-3">
+            <div data-v-477b291f="" class="layout justify-center">
+                <div data-v-477b291f="" class="layout column justify-center">
+                    <div data-v-477b291f="" class="flex xs12">
+                        <div data-v-477b291f="" style="text-align: justify;">
+                            <span data-v-477b291f="" style="font-weight: bold; color: green; font-size: 24px; width: 100%; display: inline-block;">研究生用户，出校授权有效！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-v-477b291f="" role="list" class="v-list theme--light">
+            <hr data-v-477b291f="" class="v-divider theme--light"><!----><!----><!---->
+            <div data-v-477b291f="" role="listitem">
+                <div class="v-list__tile theme--light">
+                    <div data-v-477b291f="" class="v-list__tile__action">
+                        <div data-v-477b291f="" class="layout"><img src="./平安成电智慧通行_files/yonghu.png" class="img"><span data-v-477b291f="" class="ml-2 mr-2">用户姓名</span></div>
+                    </div>
+                    <div data-v-477b291f="" class="v-list__tile__content">
+                        <div data-v-477b291f="" class="v-list__tile__title">
+                            <div data-v-477b291f="" class="layout justify-end">
+                                <h2 id="user_name">王浩</h2>
+                        </div>
+                    </div>
+                </div>
+            </div><!----><!---->
+            <div data-v-477b291f="" role="listitem">
+                <div class="v-list__tile theme--light">
+                    <div data-v-477b291f="" class="v-list__tile__action">
+                        <div data-v-477b291f="" class="layout"><img src="./平安成电智慧通行_files/leixing.png" class="img"> <span data-v-477b291f="" class="ml-2 mr-2">登记类型</span></div>
+                    </div>
+                    <div data-v-477b291f="" class="v-list__tile__content">
+                        <div data-v-477b291f="" class="v-list__tile__title warning--text">
+                            <div data-v-477b291f="" class="layout justify-end"><h2 class="type">研究生（硕士）</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!----><!---->
+            <div data-v-477b291f="" role="listitem">
+                <div class="v-list__tile theme--light">
+                    <div data-v-477b291f="" class="v-list__tile__action">
+                        <div data-v-477b291f="" class="layout"><img src="./平安成电智慧通行_files/shijian.png" class="img"><span data-v-477b291f="" class="ml-2 mr-2">登记时间</span></div>
+                    </div>
+                    <div data-v-477b291f="" class="v-list__tile__content">
+                        <div data-v-477b291f="" class="v-list__tile__title primary--text">
+                            <div data-v-477b291f="" class="layout justify-end">
+                                    <marquee behavior="scroll" direction="left" width="170px" align="top">
+                                        <div id="time" class="time">2020-06-10 15:59:27  2020-06-10 15:59:27</div>
+                                    </marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!----></div>
+    </div>
+</div>
+
+
+<script>
+    function time() {
+        function format(i) {
+            return (i < 10 ? "0" + i : i);
+        }
+
+        var date = new Date();
+        var year = date.getFullYear();
+        var month = format(date.getMonth() + 1);
+        var day = format(date.getDate());
+        var hour = format(date.getHours());
+        var minute = format(date.getMinutes());
+        var second = format(date.getSeconds());
+        var dis_date = year + "-" + month + "-" + day + " " + hour + ":" + minute + ":" + second;
+        var show_date = dis_date + "  " + dis_date;
+        document.getElementById("time").innerHTML = show_date;
+    }
+
+    setInterval(time, 1);
+</script>
+
+</body></html>
